@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22d2c0ab-08eb-4deb-9564-c69d5a78b8dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/MybatisTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/domain/AccountUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/domain/Myuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/itheima/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/com/itheima/dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/com/itheima/dao/IRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/com/itheima/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/AccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/RoleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/SecondLevelCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/TestDaoimp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MybatisTest/src/test/java/com/itheima/test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/SpringTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/iteima/jdbc/JdbcDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/itheima/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/itheima/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/itheima/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/itheima/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/com/itheima/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/java/config/TransactionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/resources/com" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/test/java/com/itheima/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringTest/src/test/java/com/itheima/test/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anotation_mabatis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/AnnotationCRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisAnnoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jndi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jndi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jndi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jndi/jndi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jndi/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test1/test1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Orderinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Orderinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Roles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/RolesPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/RolesPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/carinfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/carinfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/bean/tour.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/domain/tour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/ICategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/ICategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/ICustomerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/ICustomerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/IOrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/IOrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/IPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/IPermissionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/IProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/CategoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/CategoryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/CustomerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/CustomerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/PermissionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/PermissionDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/RoleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/RoleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/imp/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/imp/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/dao/userDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/dao/userDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/IOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/IOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/IPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/IPermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/CategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/CategoryServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/PermissionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/PermissionServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/RoleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/RoleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTestPermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTestPermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTestRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/PermissionTestRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/TestRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/TestRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/TestUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/TestUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DreamTown/src/test/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DreamTown/src/test/test.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="355893234">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="880" />
+          <entry key="properties" value="8" />
+          <entry key="xml" value="97" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="880" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="97" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="15" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="15" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisAnnoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/AnnotationCRUDTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SecondLevelCatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/heima/domain/Myuser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccountTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/domain/Myuser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisAnnoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/IRoleDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/itheima/test/AnnotationCRUDTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SecondLevelCatchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\MavenRepository\maven-repository" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-235" />
+    <option name="y" value="100" />
+    <option name="width" value="1255" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="anotation_mabatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="anotation_mabatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584693594334" />
+    <property name="last_opened_file_path" value="C:/lib/常用/ojdbc6.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\封华健\IdeaProjects\anotation_mabatis\src\test\java" />
+      <recent name="C:\Users\封华健\IdeaProjects\anotation_mabatis\src\test" />
+      <recent name="C:\Users\封华健\IdeaProjects\anotation_mabatis\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.itheima.dao" />
+      <recent name="com.itheima.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\封华健\IdeaProjects\anotation_mabatis\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SecondLevelCatchTest.testFindOne">
+    <configuration name="AnnotationCRUDTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotation_mabatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testFindByRid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotation_mabatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindByRid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnotationCRUDTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotation_mabatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.test.AnnotationCRUDTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLevelCatchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotation_mabatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLevelCatchTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLevelCatchTest.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="anotation_mabatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLevelCatchTest" />
+      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindByRid" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.test" />
+      <item itemvalue="JUnit.AnnotationCRUDTest.testFindOne" />
+      <item itemvalue="JUnit.SecondLevelCatchTest" />
+      <item itemvalue="JUnit.SecondLevelCatchTest.testFindOne" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SecondLevelCatchTest.testFindOne" />
+        <item itemvalue="JUnit.SecondLevelCatchTest" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindOne" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.testFindByRid" />
+        <item itemvalue="JUnit.AnnotationCRUDTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22d2c0ab-08eb-4deb-9564-c69d5a78b8dc" name="Default Changelist" comment="" />
+      <created>1584631044133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584631044133</updated>
+      <workItem from="1584631048687" duration="3032000" />
+      <workItem from="1584668873538" duration="14693000" />
+      <workItem from="1584692583403" duration="959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RoleTest_testFindAll - 2020.03.20 at 13h 52m 25s.xml">
+      <configuration name="RoleTest.testFindAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_test - 2020.03.20 at 14h 22m 10s.xml">
+      <configuration name="AnnotationCRUDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_test - 2020.03.20 at 14h 32m 22s.xml">
+      <configuration name="AnnotationCRUDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_test - 2020.03.20 at 14h 32m 54s.xml">
+      <configuration name="AnnotationCRUDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_test - 2020.03.20 at 14h 35m 49s.xml">
+      <configuration name="AnnotationCRUDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_test - 2020.03.20 at 14h 36m 26s.xml">
+      <configuration name="AnnotationCRUDTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindByRid - 2020.03.20 at 16h 24m 49s.xml">
+      <configuration name="AnnotationCRUDTest.testFindByRid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnotationCRUDTest_testFindOne - 2020.03.20 at 16h 25m 19s.xml">
+      <configuration name="AnnotationCRUDTest.testFindOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondLevelCatchTest - 2020.03.20 at 16h 34m 15s.xml">
+      <configuration name="SecondLevelCatchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SecondLevelCatchTest_testFindOne - 2020.03.20 at 16h 34m 41s.xml">
+      <configuration name="SecondLevelCatchTest.testFindOne" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18684000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25670242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48441926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48441926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisAnnoTest.java</url>
+          <line>22</line>
+          <properties class="com.itheima.test.MybatisAnnoTest" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/itheima/test/AnnotationCRUDTest.java</url>
+          <line>67</line>
+          <properties class="com.itheima.test.AnnotationCRUDTest" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IRoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_211/jdk1.8.0_211/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/domain/Myuser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="71" column="28" lean-forward="true" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SecondLevelCatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/AnnotationCRUDTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/itheima/test/MybatisAnnoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>anotation_mabatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
